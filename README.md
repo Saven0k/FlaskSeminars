@@ -1,0 +1,2 @@
+# FlaskSeminars
+Project with Flask 
