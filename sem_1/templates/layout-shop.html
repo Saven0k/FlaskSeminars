@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% block title %} Одежда {% endblock %}</title>
+	<link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+	<header class="header">
+        <div class="inner">
+          <h3 class="logo-name">
+          	{% block name %}
+			{% endblock %}
+          </h3>
+          <nav class="nav">
+            <a class="nav-link" href="/clothes">Одежда</a>
+            <a class="nav-link" href="/jacket">Куртки</a>
+            <a class="nav-link" href="/shoes">Обувь</a>
+          </nav>
+        </div>
+     </header>
+	{% block content %}
+	{% endblock %}
+	<footer class="footer">
+        <div class="inner">
+          <p>Автор Savenok</p>
+        </div>
+    </footer>
+</body>
+</html>

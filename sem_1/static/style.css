@@ -1,0 +1,39 @@
+* {
+    background-color: #222;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+    margin-bottom: 120px;
+}
+
+.inner {
+    flex-direction: column;
+}
+
+.logo-name {
+    font-size: 24px;
+    font-weight: 700;
+        color: #fff;
+}
+
+.nav-link {
+    text-decoration:  none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 120px;
+ }
