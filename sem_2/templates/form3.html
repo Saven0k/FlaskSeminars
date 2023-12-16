@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% if email %}
+    <div>
+        <p>Привет, {{ name }}. Твой email - {{ email }}</p>
+        <button action='/form' style='background-color: red; font-size: 25px; color: #fff;'>Выйти</button>
+    </div>
+    {% endif %}
+    <form action="/form" method="post">
+        <input type="text" name="name" placeholder="Имя">
+        <input type="text" name="email" placeholder="email">
+        <input type="submit" value="Отправить">
+    </form>
+{% endblock content %}
