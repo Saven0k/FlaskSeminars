@@ -1,0 +1,22 @@
+
+
+.body {
+    font-size: 24px;
+}
+
+.header, .footer {
+    height: 250px;
+    background-color: blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
